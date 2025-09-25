@@ -1,0 +1,35 @@
+{
+  "routes": [
+    {
+      "route_id": "route_1",
+      "route_name": "Khandari → Bhagwan Talkies",
+      "geometry_points": [
+        {"lat": 27.1831, "lon": 78.0169},
+        {"lat": 27.1845, "lon": 78.0175},
+        {"lat": 27.1858, "lon": 78.0182},
+        {"lat": 27.1872, "lon": 78.0190},
+        {"lat": 27.1885, "lon": 78.0198}
+      ],
+      "buses": [
+        {"bus_id": "bus_id43", "status": "active"},
+        {"bus_id": "bus_id87", "status": "inactive"}
+      ]
+    },
+    {
+      "route_id": "route_2",
+      "route_name": "ISBT → Ronkta",
+      "geometry_points": [
+        {"lat": 27.1831, "lon": 78.0169},
+        {"lat": 27.1845, "lon": 78.0175},
+        {"lat": 27.1858, "lon": 78.0182},
+        {"lat": 27.1872, "lon": 78.0190},
+        {"lat": 27.1885, "lon": 78.0198},
+        {"lat": 27.1900, "lon": 78.0205}
+      ],
+      "buses": [
+        {"bus_id": "bus_id56", "status": "active"},
+        {"bus_id": "bus_id92", "status": "inactive"}
+      ]
+    }
+  ]
+}
