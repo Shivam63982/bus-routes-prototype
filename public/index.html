@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bus Tracker</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    body { margin: 0; display: flex; }
+    #map { width: 75%; height: 100vh; }
+    #sidebar { width: 25%; background: #f8f8f8; padding: 10px; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div id="sidebar">
+    <h2>Available Routes</h2>
+    <ul id="busStopsList"></ul>
+
+    <div id="controls">
+      <input type="text" id="routeInput" placeholder="Enter Route Name" />
+      <button id="subscribeBtn">Subscribe</button>
+      <button id="unsubscribeBtn">Cancel</button>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
